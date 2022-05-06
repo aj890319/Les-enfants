@@ -23,7 +23,7 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
     font-weight: 200;
-    font-style: normal;
+    font-style: inherit;
     text-align: center;
 }
 /* HTML5 display-role reset for older browsers */

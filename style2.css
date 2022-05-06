@@ -43,13 +43,13 @@ nav ul {
   margin-right: 20px;
 }
 header {
-  width: 100%;
+  width: auto;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-size: cover;
+  background-size: 100%;
   background-position: 0% center;
   background-image: url(assets/09.jpg);
 }
@@ -92,8 +92,9 @@ article h3 {
   height: 400px;
   margin-right: auto;
   margin-left: auto;
+  text-indent: 4px;
 }
-.container1-left {
+.container1 .left {
   flex: 1;
   text-align: justify;
   line-height: 30px;
@@ -101,7 +102,7 @@ article h3 {
   letter-spacing: 1px;
   margin-right: 10px;
 }
-.container1-right {
+.container1 .right {
   flex: 1;
   border-radius: 20px;
   background-position: center center;
@@ -123,53 +124,65 @@ article ol li {
 }
 .container2 {
   display: flex;
-  width: 80%;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
   height: 350px;
   margin-top: 20px;
 }
 .container2 .col01 {
-  flex: 1;
-  background-size: cover;
-  margin: 5px;
-  border-radius: 10px;
-  background-position: center center;
-  display: flex;
-  align-items: flex-end;
-  background-image: url(assets/11.jpg);
+    flex: 1;
+    background-size: cover;
+    margin: 5px;
+    border-radius: 10px;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    background-image: url(assets/11.jpg);
 }
 .container2 .col02 {
-  flex: 1;
-  background-size: cover;
-  margin: 5px;
-  border-radius: 10px;
-  background-position: center center;
-  align-items: flex-end;
-  display: flex;
-  background-image: url(assets/13.jpg);
+    flex: 1;
+    background-size: cover;
+    margin: 5px;
+    border-radius: 10px;
+    background-position: center center;
+    align-items: flex-end;
+    display: flex;
+    background-image: url(assets/13.jpg);
+    -webkit-transition: all 200ms linear 0s;
+    -o-transition: all 200ms linear 0s;
+    transition: all 200ms linear 0s;
 }
 .container2 .col03 {
-  flex: 1;
-  background-position: center center;
-  margin: 5px;
-  border-radius: 10px;
-  background-size: cover;
-  align-items: flex-end;
-  display: flex;
-  background-image: url(assets/12.jpg);
+    flex: 1;
+    background-position: center center;
+    margin: 5px;
+    border-radius: 10px;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+    background-image: url(assets/12.jpg);
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
 }
 .container2 .colT {
   background-color: #292929;
-  opacity: 0.84;
+  opacity: 0;
   color: #FFFFFF;
   height: 30px;
-  line-height: 25px;
+  line-height: 20px;
   text-align: center;
   width: 100%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  font-size: 66%;
+  -webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+  font-size: 22px;
 }
 .container3 {
   display: flex;
@@ -188,6 +201,9 @@ article ol li {
   display: flex;
   align-items: flex-end;
   background-image: url(assets/01.jpg);
+  -webkit-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
 }
 .container3 .col02 {
   flex: 1;
@@ -198,6 +214,9 @@ article ol li {
   align-items: flex-end;
   display: flex;
   background-image: url(assets/02.jpg);
+  -webkit-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
 }
 .container3 .col03 {
   flex: 1;
@@ -208,6 +227,9 @@ article ol li {
   align-items: flex-end;
   display: flex;
   background-image: url(assets/14.jpg);
+  -webkit-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
 }
 .container3 .colT {
   background-color: #292929;
@@ -238,6 +260,9 @@ article ol li {
   display: flex;
   align-items: flex-end;
   background-image: url(assets/17.jpg);
+-webkit-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
 }
 .container4 .col02 {
   flex: 1;
@@ -248,6 +273,9 @@ article ol li {
   align-items: flex-end;
   display: flex;
   background-image: url(assets/15.jpg);
+	-webkit-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
 }
 .container4 .col03 {
   flex: 1;
@@ -258,6 +286,9 @@ article ol li {
   align-items: flex-end;
   display: flex;
   background-image: url(assets/16.jpg);
+	-webkit-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
 }
 .container4 .colT {
   background-color: #292929;
@@ -270,6 +301,7 @@ article ol li {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   font-size: 66%;
+	
 }
 .record {
   background-color: #CFC8FE;
@@ -297,10 +329,55 @@ article ol li {
 .container6-left {
   flex: 1;
   background-position: center center;
-
-	
 }
 .container6-right {
-    flex: 1;
-    background-position: center center;
+  flex: 1;
+  background-position: center center;
 }
+.container1 .right:hover {
+  -webkit-transform: rotate(1.5deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(3deg);
+  -webkit-box-shadow: 2px 2px 5px 2px #ABBAFB;
+  box-shadow: 2px 2px 5px 2px #ABBAFB;
+}
+.container2 .col01:hover {
+    transform: translateY(-7px);
+}
+.container2 .col02:hover {
+    transform: translateY(-7px);
+}
+.container2 .col03:hover {
+	transform: translateY(-7px);}
+
+.col01:hover .colT {
+  -webkit-opacity: 1;
+  opacity: 1;
+}
+.col02:hover .colT {
+  -webkit-opacity: 0.5;
+  opacity: 1;
+}
+.col03:hover .colT {
+  -webkit-opacity: 1;
+  opacity: 1;
+}
+.container3 .left:hover {
+  -webkit-transform: rotate(-1.5deg);
+  -o-transform: rotate(-2deg);
+  transform: rotate(-3deg);
+  -webkit-box-shadow: 2px 2px 5px 2px #F3BE65;
+  box-shadow: 2px 2px 5px 2px #F3BE65;
+}
+.container4 .right:hover {
+    -webkit-transform: rotate(1.5deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(3deg);
+    -webkit-box-shadow: 2px 2px 5px 2px #50F477;
+    box-shadow: 2px 2px 5px 2px #50F477;
+}
+.img:hover {
+	transform: scale(1.2);}
+.video:hover {
+	transform: scale(1.8);}
+
