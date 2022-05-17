@@ -19,12 +19,13 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 32in;
+    font-size: 45in;
     font: inherit;
     vertical-align: baseline;
     font-weight: 200;
     font-style: inherit;
     text-align: center;
+    font-family: "Noto Sans TC", sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
